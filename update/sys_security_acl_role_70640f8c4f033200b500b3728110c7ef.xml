@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-25 23:29:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>70640f8c4f033200b500b3728110c7ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_126517_challenge_dxc_request.x_126517_challenge.dxc_request_user</sys_name>
+        <sys_package display_value="Challenge 2017" source="x_126517_challenge">d4063a804f033200b500b3728110c7ec</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Challenge 2017">d4063a804f033200b500b3728110c7ec</sys_scope>
+        <sys_security_acl display_value="x_126517_challenge_dxc_request">b4640f8c4f033200b500b3728110c7ec</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_70640f8c4f033200b500b3728110c7ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-25 23:29:04</sys_updated_on>
+        <sys_user_role display_value="x_126517_challenge.dxc_request_user" name="x_126517_challenge.dxc_request_user">14644f4c4f033200b500b3728110c7f5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

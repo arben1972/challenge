@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="city" table="x_126517_challenge_dxc" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Belgium</dependent_value>
+            <element>city</element>
+            <hint>Show Antwerpen when Belgium appears on the Country choice</hint>
+            <inactive>false</inactive>
+            <label>Antwerpen</label>
+            <language>en</language>
+            <name>x_126517_challenge_dxc</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-30 11:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5c052ed4f4b3200b500b3728110c782</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-30 11:48:21</sys_updated_on>
+            <value>Antwerpen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Belgium</dependent_value>
+            <element>city</element>
+            <hint>Show in City when Belgium is chosen in Country </hint>
+            <inactive>false</inactive>
+            <label>Brussel</label>
+            <language>en</language>
+            <name>x_126517_challenge_dxc</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-30 11:47:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfa35ead4f4b3200b500b3728110c7ca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-30 11:47:59</sys_updated_on>
+            <value>Brussel</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <name>x_126517_challenge_dxc</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-30 11:34:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>cdc052ed4f4b3200b500b3728110c782</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>city</sys_name>
+            <sys_package display_value="Challenge 2017" source="x_126517_challenge">d4063a804f033200b500b3728110c7ec</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Challenge 2017">d4063a804f033200b500b3728110c7ec</sys_scope>
+            <sys_update_name>sys_choice_x_126517_challenge_dxc_city</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-30 11:48:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

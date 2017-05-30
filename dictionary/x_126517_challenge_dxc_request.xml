@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="DXC Request" max_length="40" name="x_126517_challenge_dxc_request" sizeclass="1" type="collection">
+        <element label="Cost" max_length="20" name="cost" type="currency"/>
+        <element choice="1" label="Deliver To" max_length="40" name="deliver_to" type="choice">
+            <choice/>
+        </element>
+        <element display="true" label="Estimated Delivery" max_length="40" name="estimated_delivery" type="glide_date"/>
+        <element label="Requested for" max_length="40" name="requested_for" type="string"/>
+        <element choice="1" label="Stage" max_length="40" name="stage" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+    </element>
+</database>
