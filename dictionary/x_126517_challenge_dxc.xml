@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="DXC Incident" max_length="40" name="x_126517_challenge_dxc" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="DXC Incident" max_length="40" name="x_126517_challenge_dxc" sizeclass="0" type="collection">
         <element choice="1" dependent="location" dependent_on_field="location" label="City" mandatory="true" max_length="40" name="city" type="choice" use_dependent_field="true">
             <choice>
-                <element dependent_value="Belgium" hint="Show Antwerpen when Belgium appears on the Country choice" label="Antwerpen" sequence="1" value="Antwerpen"/>
-                <element dependent_value="Belgium" hint="Show in City when Belgium is chosen in Country " label="Brussel" sequence="2" value="Brussel"/>
+                <element dependent_value="Belgium" hint="Show Antwerpen when Belgium appears on the Country choice" inactive_on_update="false" label="Antwerpen" sequence="1" value="Antwerpen"/>
+                <element dependent_value="Belgium" hint="Show in City when Belgium is chosen in Country " inactive_on_update="false" label="Brussel" sequence="2" value="Brussel"/>
             </choice>
         </element>
         <element label="Client Name" max_length="40" name="client_name" type="string"/>
         <element label="Incident description" max_length="40" name="incident_description" type="string"/>
         <element choice="1" label="Country" mandatory="true" max_length="40" name="location" type="choice">
             <choice>
-                <element label="Belgium" sequence="0" value="Belgium"/>
-                <element label="France" sequence="1" value="France"/>
-                <element label="Germany" sequence="2" value="Germany"/>
+                <element inactive_on_update="false" label="Belgium" sequence="0" value="Belgium"/>
+                <element inactive_on_update="false" label="France" sequence="1" value="France"/>
+                <element inactive_on_update="false" label="Germany" sequence="2" value="Germany"/>
             </choice>
         </element>
         <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>

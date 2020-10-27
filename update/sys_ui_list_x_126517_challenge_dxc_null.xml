@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_126517_challenge_dxc" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -89,7 +88,6 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-05-29 11:31:44</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3386cd5d4f033200b500b3728110c7f6</sys_id>
@@ -97,7 +95,6 @@
             <sys_name>x_126517_challenge_dxc</sys_name>
             <sys_package display_value="Challenge 2017" source="x_126517_challenge">d4063a804f033200b500b3728110c7ec</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Challenge 2017">d4063a804f033200b500b3728110c7ec</sys_scope>
             <sys_update_name>sys_ui_list_x_126517_challenge_dxc_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

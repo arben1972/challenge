@@ -1,6 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="location" table="x_126517_challenge_dxc" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <name>x_126517_challenge_dxc</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-29 11:36:33</sys_created_on>
+            <sys_id>70423862074c6010961ff0ef7c1ed0a2</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>location</sys_name>
+            <sys_package display_value="Challenge 2017" source="x_126517_challenge">d4063a804f033200b500b3728110c7ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Challenge 2017">d4063a804f033200b500b3728110c7ec</sys_scope>
+            <sys_update_name>sys_choice_x_126517_challenge_dxc_location</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-30 10:38:13</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>location</element>
@@ -58,23 +73,5 @@
             <sys_updated_on>2017-05-30 10:37:44</sys_updated_on>
             <value>Germany</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>location</element>
-            <name>x_126517_challenge_dxc</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-29 11:36:33</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>5aa7c9dd4f033200b500b3728110c712</sys_id>
-            <sys_mod_count>5</sys_mod_count>
-            <sys_name>location</sys_name>
-            <sys_package display_value="Challenge 2017" source="x_126517_challenge">d4063a804f033200b500b3728110c7ec</sys_package>
-            <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="Challenge 2017">d4063a804f033200b500b3728110c7ec</sys_scope>
-            <sys_update_name>sys_choice_x_126517_challenge_dxc_location</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-30 10:38:13</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

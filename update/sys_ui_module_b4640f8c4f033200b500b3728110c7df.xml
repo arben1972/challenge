@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="DXC">fd420f4c4f033200b500b3728110c7c3</application>
@@ -12,7 +11,6 @@
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-05-25 23:29:04</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4640f8c4f033200b500b3728110c7df</sys_id>
@@ -20,7 +18,6 @@
         <sys_name>DXC Requests</sys_name>
         <sys_package display_value="Challenge 2017" source="x_126517_challenge">d4063a804f033200b500b3728110c7ec</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Challenge 2017">d4063a804f033200b500b3728110c7ec</sys_scope>
         <sys_update_name>sys_ui_module_b4640f8c4f033200b500b3728110c7df</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

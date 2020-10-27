@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sysevent_email_template">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
     <sysevent_email_template action="INSERT_OR_UPDATE">
         <collection>x_126517_challenge_user_info</collection>
         <email_layout/>
         <message/>
         <message_html><![CDATA[<p><span style="font-size: 8pt;">Dear Mr. ${last_name}<br /></span></p>
-<p>&nbsp;</p>
+<p><br /></p>
 <p><span style="font-size: 8pt;">Thank you for submitting / updating your request to DXC. Your request has been registered or identified&nbsp;&nbsp;under ID: ${sys_id}<br /></span></p>
 <p><span style="font-size: 8pt;">We will proceed with the review and contact you in case of any missing information.</span></p>
-<p><span style="font-size: 8pt;"><br /> If you have any questions, please contact us via phone or mail.</span></p>
+<p><span style="font-size: 8pt;"><br />If you have any questions, please contact us via phone or mail.</span></p>
 <p><span style="font-size: 8pt;">&nbsp;</span></p>
 <p><span style="font-size: 8pt;">Best Regards,</span></p>
-<p><span style="font-size: 8pt;">DXC Team</span></p>]]></message_html>
+<p><span style="font-size: 10.6667px;">Ben</span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>DXC Registration</name>
@@ -20,17 +19,15 @@
         <sys_class_name>sysevent_email_template</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-05-26 00:04:46</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>04f90b404f433200b500b3728110c767</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>DXC Registration</sys_name>
         <sys_package display_value="Challenge 2017" source="x_126517_challenge">d4063a804f033200b500b3728110c7ec</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Challenge 2017">d4063a804f033200b500b3728110c7ec</sys_scope>
         <sys_update_name>sysevent_email_template_04f90b404f433200b500b3728110c767</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-05-26 00:11:12</sys_updated_on>
+        <sys_updated_on>2020-10-27 01:30:50</sys_updated_on>
         <sys_version>2</sys_version>
     </sysevent_email_template>
 </record_update>

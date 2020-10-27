@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="task" label="DXC Request" max_length="40" name="x_126517_challenge_dxc_request" sizeclass="1" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="DXC Request" max_length="40" name="x_126517_challenge_dxc_request" sizeclass="0" type="collection">
         <element label="Cost" max_length="20" name="cost" type="currency"/>
         <element choice="1" label="Deliver To" max_length="40" name="deliver_to" type="choice">
             <choice/>
